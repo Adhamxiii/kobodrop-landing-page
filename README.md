@@ -53,7 +53,7 @@ We welcome contributions from the community! To contribute, follow these steps:
 
 ## Live Demo
 
-Check out the live demo of the project [here]().
+Check out the live demo of the project [here](https://kobodrop-landing-page.vercel.app/).
 
 ## Contact Me
 
