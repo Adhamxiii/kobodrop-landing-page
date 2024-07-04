@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import StoreLink from "./StoreLink";
+import StoreLink, { BtnTypes } from "./StoreLink";
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
           Discover the Smart Way to Use Your Money!
         </p>
         <div className="mt-10 hidden justify-center space-x-2 sm:flex md:justify-normal">
-          <StoreLink />
+          <StoreLink type={BtnTypes.Standard} />
         </div>
       </div>
       <div className="md:w-3/6 xl:mb-12 xl:overflow-hidden">
